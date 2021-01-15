@@ -1,0 +1,148 @@
+body{
+    background-color:rgb(255, 255, 255);
+}
+   
+#h1{
+    font-family: 'Sansita Swashed', cursive;
+    margin-left: -8px;
+    margin-top: -8px;
+    text-align: center;         
+    font-size: 80px;                  
+    size: 100% 100%;
+    letter-spacing: 15px;
+    background-color: rgb(3, 173, 26);
+    color: white;
+    width: 1800px;
+      
+ }         
+ #h1:hover{background-color: rgb(36, 164, 195);
+color: rgb(17, 50, 243);}
+
+.bar li{
+    list-style: none;
+    /* float: right; */
+    padding: 15px 15px;
+    display: inline-block;
+    font-size: 40px;
+border: 2px solid white;
+    background-color: rgb(1, 105, 146);
+    color: white;
+    cursor: pointer;
+    font-family: 'Cabin', sans-serif;
+    width: 300px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 30px;
+    position: relative;
+    bottom:10px;
+}
+li:hover{
+    background-color: rgb(38, 189, 189);
+    border: 2px solid black;
+    color: white;
+}
+.bar ul li a{
+    text-decoration:none;
+    color: white;      
+}
+#image{
+ margin: 0px; 
+ margin-left: -8px; 
+ padding-top: 30px;
+    width: 1800px;
+    height: 580px;
+    size: 100% 100%; 
+}
+#food{
+     text-align: center; 
+     font-size: 55px;
+     letter-spacing: 10px; 
+     margin-top: -80px; 
+    font-family: 'Sansita Swashed', cursive;
+    background-color: rgb(3, 173, 26);
+    color: white;
+    width: 1800px;
+    padding-top: 6px;
+}
+#food:hover{background-color: rgb(223, 39, 39);
+    color: rgb(155, 170, 251);}
+
+
+   .menu{ 
+    border-radius: 125px;
+    display: grid;
+    grid-template-columns: auto auto
+  auto auto auto auto;
+    padding: 5px;
+    width: 170px;
+    height: 170px;
+    text-align: center;
+     margin: 10px ; 
+     margin-bottom: 20px;
+    
+    
+  }
+  #others{
+      margin-top: 150px;
+      letter-spacing:10px;
+      text-align: center;
+      font-size: 70px;
+      font-family: 'Sansita Swashed', cursive;
+      background-color: rgb(3, 173, 26);
+      color: white;
+      line-height: 100px;
+      width: 1800px;
+  }
+  #others:hover{background-color: rgb(223, 39, 39);
+    color: rgb(155, 170, 251);}
+    
+  
+   
+
+    #pasta{
+        box-shadow:6px 6px rgb(167, 163, 163);
+    }
+    #pizza{
+        box-shadow:6px 6px rgb(167, 163, 163);
+        
+    }#tika{
+        box-shadow:6px 6px rgb(167, 163, 163);
+    }#biryani{
+        box-shadow:6px 6px rgb(167, 163, 163);
+    }#halwa{
+        box-shadow:6px 6px rgb(167, 163, 163);
+    }#burger{
+        box-shadow:6px 6px rgb(167, 163, 163);
+    }#pancake{
+        box-shadow:6px 6px rgb(167, 163, 163);
+    }#fries{
+        box-shadow:6px 6px rgb(167, 163, 163);
+    }#nehari{
+        box-shadow:6px 6px rgb(167, 163, 163);
+    }#chicken{
+        box-shadow:6px 6px rgb(167, 163, 163);
+    }#paratha{
+        box-shadow:6px 6px rgb(167, 163, 163);
+    }#cake{
+        box-shadow:6px 6px rgb(167, 163, 163);
+    }
+    
+    .suggestions{
+        border: 2px solid rgb(255, 255, 255);
+        width: 170px;
+        height: 170px;
+          
+        border-radius: 125px;
+        display: grid;
+        grid-template-columns: auto auto
+      auto auto auto auto;
+        padding: 5px;
+        text-align: center;
+        margin: 10px ;
+        margin-bottom: 20px;
+    }
+    figcaption{
+        font-family: 'Syne Mono', monospace;
+        font-size: 30px;
+    }
+
